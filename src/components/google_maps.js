@@ -1,7 +1,7 @@
 import React, { PropTypes } from 'react';
 import { GoogleMapLoader, GoogleMap } from "react-google-maps";
 
-export default (props) => {
+const GoogleMaps = (props) => {
     return (
         <GoogleMapLoader
             containerElement={<div style={{height: "100%"}}/>}
@@ -10,4 +10,6 @@ export default (props) => {
             }
         />
     );
-}
+};
+
+export default GoogleMaps;

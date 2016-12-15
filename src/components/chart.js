@@ -1,7 +1,7 @@
 import React from 'react';
 import { Sparklines, SparklinesLine, SparklinesReferenceLine } from 'react-sparklines';
 
-export default (props) => {
+ const Chart = (props) => {
     return (
         <div>
             <Sparklines height={120} width={180} data={props.data}>
@@ -10,4 +10,6 @@ export default (props) => {
             </Sparklines>
         </div>
     )
-}
+};
+
+export default Chart;
